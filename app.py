@@ -41,7 +41,7 @@ elif step1 == "Panopto directly":
     ])
 
     if step4 == "Yes":
-        st.success("✅ Students enrolled in the course should have access automatically. If not, double-check group permissions on the folder.")
+        st.warning("✅ Students enrolled in the course should have access automatically. If not, double-check group permissions on the folder.\n\n⚠️ Make sure videos are in the course's root folder, NOT the Panopto [assignments] folder.")
     else:
         st.warning("⚠️ Move the video into the appropriate Canvas course folder so permissions match enrolled students.")
 
