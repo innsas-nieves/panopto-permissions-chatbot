@@ -49,6 +49,5 @@ st.markdown("""
 ---
 
 💬 **Need more help?**  
-Contact the [UNLV IT Help Desk](https://www.it.unlv.edu/it-help-desk)  
-or the UNLV E-Learning Team.
+Contact the [UNLV IT Help Desk](https://www.it.unlv.edu/it-help-desk) or the UNLV E-Learning Team.
 """)
