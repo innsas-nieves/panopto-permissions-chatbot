@@ -45,5 +45,10 @@ elif step1 == "Panopto directly":
     else:
         st.warning("⚠️ Move the video into the appropriate Canvas course folder so permissions match enrolled students.")
 
-st.write("\n---\n")
-st.info("Need more help? Contact your campus support team or visit the Panopto support center.")
+st.markdown("""
+---
+
+💬 **Need more help?**  
+Contact the [UNLV IT Help Desk](https://www.it.unlv.edu/it-help-desk)  
+or the UNLV E-Learning Team.
+""")
